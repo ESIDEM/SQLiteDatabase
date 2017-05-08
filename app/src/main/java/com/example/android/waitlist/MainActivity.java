@@ -128,12 +128,12 @@ public class MainActivity extends AppCompatActivity {
     private Cursor getAllGuests() {
         return mDb.query(
                 WaitlistContract.WaitlistEntry.TABLE_NAME,
-                null,
-                null,
-                null,
-                null,
-                null,
-                WaitlistContract.WaitlistEntry.COLUMN_TIMESTAMP
+                null, // Column
+                null, // Where clause
+                null, // Arguments
+                null, // selection
+                null, // args
+                WaitlistContract.WaitlistEntry.COLUMN_TIMESTAMP // Sort_order
         );
     }
 
