@@ -131,8 +131,8 @@ public class MainActivity extends AppCompatActivity {
                 null, // Column
                 null, // Where clause
                 null, // Arguments
-                null, // selection
-                null, // args
+                null, // Group by
+                null, // having
                 WaitlistContract.WaitlistEntry.COLUMN_TIMESTAMP // Sort_order
         );
     }
